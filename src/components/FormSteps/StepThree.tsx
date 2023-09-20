@@ -37,7 +37,7 @@ export default function StepThree({onSubmit, onBack}: Props) {
 			}
 		}
 	}
-
+	
 	return(
 		<form onSubmit={handleSubmit(submitHandler)} className='form'>
 			<div className='wrapper'>
